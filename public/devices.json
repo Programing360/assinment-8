@@ -1,0 +1,102 @@
+[
+  {
+    "product_id": 1,
+    "product_title": "MacBook Pro 14\" M2",
+    "product_image": "https://cdn.thewirecutter.com/wp-content/media/2025/03/BEST-MACBOOKS-2048px-15inch-hero.jpg?auto=webp&quality=75&width=1024",
+    "category": "laptop",
+    "price": 1999,
+    "description": "Apple's latest M2 MacBook Pro with stunning display and performance.",
+    "specification": ["M2 Chip", "16GB RAM", "512GB SSD", "14.2\" Liquid Retina XDR display"],
+    "rating": 4.8,
+    "availability": "in stock"
+  },
+  {
+    "product_id": 2,
+    "product_title": "Dell XPS 13",
+    "product_image": "https://m.media-amazon.com/images/I/710EGJBdIML._AC_SL1500_.jpg",
+    "category": "laptop",
+    "price": 1299,
+    "description": "Premium ultrabook with InfinityEdge display and high performance.",
+    "specification": ["Intel i7 13th Gen", "16GB RAM", "1TB SSD", "13.4\" FHD Display"],
+    "rating": 4.6,
+    "availability": "in stock"
+  },
+  {
+    "product_id": 3,
+    "product_title": "HP Spectre x360",
+    "product_image": "https://cdn.thewirecutter.com/wp-content/media/2025/03/BEST-MACBOOKS-2048px-15inch-hero.jpg?auto=webp&quality=75&width=1024",
+    "category": "laptop",
+    "price": 1250,
+    "description": "Stylish 2-in-1 convertible laptop with touchscreen and pen support.",
+    "specification": ["Intel i5 12th Gen", "8GB RAM", "512GB SSD", "13.3\" Touch Display"],
+    "rating": 4.4,
+    "availability": "out of stock"
+  },
+  {
+    "product_id": 4,
+    "product_title": "iPhone 14 Pro Max",
+    "product_image": "https://www.imagineonline.store/cdn/shop/files/iPhone_15_Green_PDP_Image_Position-1__en-IN_a957365d-0aa2-43da-88b1-fcaa9b0be4cf.jpg?v=1694606789&width=823",
+    "category": "phone",
+    "price": 1299,
+    "description": "Apple's flagship smartphone with Dynamic Island and 48MP camera.",
+    "specification": ["A16 Bionic", "6.7\" OLED", "128GB", "48MP Triple Camera"],
+    "rating": 4.9,
+    "availability": "in stock"
+  },
+  {
+    "product_id": 5,
+    "product_title": "Samsung Galaxy S23 Ultra",
+    "product_image": "https://app-area.riointernational.com.bd/productImages/1734078827VJCGz.png",
+    "category": "phone",
+    "price": 1199,
+    "description": "Powerful Android flagship with S Pen and 200MP camera.",
+    "specification": ["Snapdragon 8 Gen 2", "6.8\" AMOLED", "256GB", "200MP Camera"],
+    "rating": 4.8,
+    "availability": "in stock"
+  },
+  {
+    "product_id": 6,
+    "product_title": "OnePlus 11",
+    "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/OnePlus-11-(1)-7783.jpg",
+    "category": "phone",
+    "price": 699,
+    "description": "High-performance smartphone with fast charging and sleek design.",
+    "specification": ["Snapdragon 8 Gen 2", "6.7\" AMOLED", "128GB", "50MP Camera"],
+    "rating": 4.5,
+    "availability": "out of stock"
+  },
+  {
+    "product_id": 7,
+    "product_title": "Apple Watch Series 9",
+    "product_image": "https://down-id.img.susercontent.com/file/id-11134207-7r98o-ll1y36oatt9cb1",
+    "category": "smart watch",
+    "price": 499,
+    "description": "Advanced fitness and health tracking in a sleek package.",
+    "specification": ["S9 chip", "Always-On Display", "Blood Oxygen Sensor", "WatchOS 10"],
+    "rating": 4.7,
+    "availability": "in stock"
+  },
+  {
+    "product_id": 8,
+    "product_title": "Samsung Galaxy Watch 6",
+    "product_image": "https://www.custommacbd.com/cdn/shop/files/Galaxy-Watch6-Classic-Black-Custom-Mac-BD.jpg?v=1700288051",
+    "category": "smart watch",
+    "price": 399,
+    "description": "Elegant smartwatch with comprehensive health tracking and Wear OS.",
+    "specification": ["Wear OS", "Heart Rate Monitor", "Sleep Tracking", "SpO2 Sensor"],
+    "rating": 4.6,
+    "availability": "in stock"
+  },
+  {
+    "product_id": 9,
+    "product_title": "Huawei Watch GT 3",
+    "product_image": "https://www.custommacbd.com/cdn/shop/files/Galaxy-Watch6-Classic-Black-Custom-Mac-BD.jpg?v=1700288051",
+    "category": "smart watch",
+    "price": 279,
+    "description": "Lightweight smartwatch with impressive battery life.",
+    "specification": ["HarmonyOS", "14-Day Battery", "GPS", "1.43\" AMOLED"],
+    "rating": 4.3,
+    "availability": "out of stock"
+  }
+]
+
