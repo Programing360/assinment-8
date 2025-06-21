@@ -46,7 +46,7 @@ const Home = () => {
     }
     return (
         <div>
-            <div className=" mx-8 text-white bg-[#9538E2] mt-8 rounded-xl">
+            <div className=" mx-8 text-white bg-[#9538E2]  rounded-xl">
                 <div className="">
                     <NavBar></NavBar>
                 </div>
@@ -56,11 +56,11 @@ const Home = () => {
                     <button className="btn bg-white btn-primary text-purple-500 mt-4 rounded-2xl">Shop Now</button>
 
                     <div className="flex justify-center mt-16 ">
-                        <img className="w-md border-2 p-4 rounded-xl bg-[#FFFFFF4D]" src={glass} alt="" />
+                        <img className="w-2xl border-2 p-4 rounded-xl bg-[#FFFFFF4D]" src={glass} alt="" />
                     </div>
                 </div>
             </div>
-            <div className="mt-70">
+            <div className="mt-96">
                 <h1 className="text-4xl font-bold text-center mb-9">Explore Cutting-Edge Gadgets</h1>
                 <div className="container mx-auto lg:gap-2 flex flex-col lg:flex-row">
                     <div className="border-2 rounded-xl lg:h-[500px] p-6 lg:flex flex-col lg:gap-4 gap-4">
@@ -68,7 +68,7 @@ const Home = () => {
                         <Link><button onClick={handleLaptopProduct} className="btn rounded-4xl">Laptop</button></Link>
                         <Link><button onClick={handlePhoneProduct} className="btn rounded-4xl">Phones</button></Link>
                         <Link ><button onClick={handleAccessoriesProduct} className="btn rounded-4xl">Accessories</button></Link>
-                        <Link ><button onClick={handleSmartProduct} className="btn rounded-4xl">Smart Watches</button></Link>
+                        <Link><button onClick={handleSmartProduct} className="btn rounded-4xl">Smart Watches</button></Link>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {

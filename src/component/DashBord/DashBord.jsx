@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
 import NavBar from '../NavBar/NavBar';
-import { addPrice, getPrice, getProductToStr } from '../Utility/Utility';
+import { getPrice, getProductToStr } from '../Utility/Utility';
 import { Link, useLoaderData } from 'react-router-dom';
 import CardList from '../CardList/CardList';
 import { getWishList } from '../WishList/WishList';
@@ -14,16 +14,16 @@ import payImg from '../../assets/success 1.jpg'
 
 const DashBord = () => {
     const [product1, setProduct1] = useState([])
-    const [price, setPrice] = useState([])
+    const [price, setPrice] = useState('0.00')
     const [wishPro, setWishPro] = useState([])
-    const [id, setId] = useState(0)
+    // const [id, setId] = useState(0)
     const productData = useLoaderData()
-    const { product } = useContext(dataContext)
+    // const { product } = useContext(dataContext)
 
 
-    useEffect(() => {
-        setId(parseInt(product))
-    }, [])
+    // useEffect(() => {
+    //     setId(parseInt(product))
+    // }, [])
     
     useEffect(() => {
         const priceList = getPrice()
@@ -78,6 +78,9 @@ const DashBord = () => {
 
     }
 
+    // const handleCartBtn = () => {
+
+    // }
 
     return (
         <div>
@@ -85,6 +88,11 @@ const DashBord = () => {
             <div className='text-center bg-[#9538E2] leading-6 '>
                 <h1 className='text-3xl text-white font-bold py-4'>Dashbord</h1>
                 <p className='text-white text-wrap'>Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>
+
+                {/* <div>
+                    <Link><button onClick={handlecartbtn} className='btn'>Cart</button></Link>
+                    <button className='btn'>wishlist</button>
+                </div> */}
 
                 {/* name of each tab group should be unique */}
                 <div className="tabs tabs-border justify-center">
@@ -97,11 +105,11 @@ const DashBord = () => {
                                 </div>
                                 <div className='flex items-center gap-4'>
                                     <h2 className="text-md font-bold">Total Cost : ${price}</h2>
-                                    <button onClick={handleSortBtn} className="btn rounded-4xl p-4">Short by Price</button>
+                                    <button onClick={handleSortBtn} className="btn rounded-4xl p-4">Short by Price </button>
                                     {/* <button onClick={() => handlepurchasebtn(id)} className="btn rounded-4xl p-4">purchase</button> */}
                                     {/* You can open the modal using document.getElementById('ID').showModal() method */}
                                     
-                                    <Link to='/'><button className="btn" onClick={handlepurchasebtn}>purchasel</button></Link>
+                                    <Link to='/'><button className="btn rounded-4xl" onClick={handlepurchasebtn}>purchasel</button></Link>
                                     <dialog id="my_modal_3" className="modal">
                                         <div className="modal-box">
                                             <form method="dialog">

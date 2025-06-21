@@ -14,6 +14,7 @@ import ProductDetails from './component/ProductDetails/ProductDetails';
 
 import Home from './component/Home/Home';
 import Statistics from './component/Statistics/Statistics';
+import Cart from './component/Cart/Cart';
 
 const router = createBrowserRouter([
 
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
         path:'/dashbord',
         element:<DashBord></DashBord>,
         loader:() => fetch('/public/devices.json')
+      },
+      {
+        path:'/cart',
+        element:<Cart></Cart>
       }
     ]
   },

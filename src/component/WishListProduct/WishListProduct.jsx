@@ -1,13 +1,14 @@
 import React from 'react';
-import { addProductToStr } from '../Utility/Utility';
+import { addPrice, addProductToStr } from '../Utility/Utility';
 import { ToastContainer } from 'react-toastify';
 
 const WishListProduct = ({ product }) => {
     const { product_image, product_title, description, price, product_id } = product
     // console.log(product)
     const handleCartBtn = (id) => {
-        console.log(id)
+        // console.log(id)
         addProductToStr(id)
+        addPrice(price)
     }
     return (
         <div>
